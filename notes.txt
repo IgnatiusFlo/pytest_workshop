@@ -12,3 +12,16 @@ Simple solution 1st.
 
 Write the test first.
 
+Single assertions, for different cases write more tests - unlike codewars?
+
+// or / for divide what's the difference?
+
+pytest func exists to give approx. in cases of irrational numbers. Specifying decimel places.
+
+with in python is a context manager
+
+Name tests well, long and explicit
+
+Mock files in testing stop test suit from downloading masses of data
+
+

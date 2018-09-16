@@ -3,5 +3,12 @@
   "pytest_worshop/tests/test_pytest_worshop.py::test_add_two_numbers",
   "pytest_worshop/tests/test_pytest_worshop.py::test_add_three_numbers",
   "pytest_worshop/tests/test_pytest_worshop.py::test_add_many",
-  "pytest_worshop/tests/test_pytest_worshop.py::test_sub"
+  "pytest_worshop/tests/test_pytest_worshop.py::test_sub",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_mul",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_div",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_div_two_num_float",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_zero",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_mu_by_zero_raises_exception",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_list_empty",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_average"
 ]
