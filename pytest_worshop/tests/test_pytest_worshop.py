@@ -1,30 +1,38 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
-"""
-test_pytest_worshop
-----------------------------------
+import pytest_worshop.pytest_worshop as pt
 
-Tests for `pytest_worshop` module.
-"""
+def test_init():
+   c = pt.Calc()
 
-import pytest
+def test_add_two_numbers():
+    c = pt.Calc()
 
+    result = c.add(5, 4)
 
-from pytest_worshop import pytest_worshop
+    assert result == 9
 
 
-@pytest.fixture
-def response():
-    """Sample pytest fixture.
-    See more at: http://doc.pytest.org/en/latest/fixture.html
-    """
-    # import requests
-    # return requests.get('https://github.com/audreyr/cookiecutter-pypackage')
+def test_add_three_numbers():
+    c = pt.Calc()
+
+    result = c.add(10, 20, 30)
+
+    assert result == 60
 
 
-def test_content(response):
-    """Sample pytest test function with the pytest fixture as an argument.
-    """
-    # from bs4 import BeautifulSoup
-    # assert 'GitHub' in BeautifulSoup(response.content).title.string
+def test_add_many():
+    c = pt.Calc()
+    r = range(100)
+    result =  c.add(*r)
+
+    assert result == 4950
+
+def test_sub():
+    c = pt.Calc()
+
+    result = c.sub(4, 5)
+
+    assert result == -1
+
+
+

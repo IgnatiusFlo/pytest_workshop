@@ -1,3 +1,7 @@
 [
-  "pytest_worshop/tests/test_pytest_worshop.py::test_content"
+  "pytest_worshop/tests/test_pytest_worshop.py::test_init",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_add_two_numbers",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_add_three_numbers",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_add_many",
+  "pytest_worshop/tests/test_pytest_worshop.py::test_sub"
 ]

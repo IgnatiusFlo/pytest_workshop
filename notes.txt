@@ -1,0 +1,14 @@
+TDD is a state of mind!
+
+State goal, check, fix.
+One at a time.
+only write the nexessary amount of code to fix the issue.
+
+Include the word test in func name as defalt for pytest
+
+*r ???
+
+Simple solution 1st.
+
+Write the test first.
+
